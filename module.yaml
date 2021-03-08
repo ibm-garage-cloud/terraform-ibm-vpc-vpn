@@ -1,13 +1,12 @@
-name: ""
+name: ibm-vpc-vpn
 type: terraform
-description: ""
+description: Module to configure and install a VPC (Virtual Private Cloud) with VPN and Bastion Access
 tags:
-    - tools
-    - devops
+    - fscloud
+    - infrastructure
 versions:
 - platforms:
     - kubernetes
-    - ocp3
     - ocp4
   dependencies: []
 #    - id: cluster
