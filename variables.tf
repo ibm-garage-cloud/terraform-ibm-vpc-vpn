@@ -21,7 +21,7 @@
   existing_subnet_id=""
 }*/
 
-variable "ibmcloud_api_key" {
+/*variable "ibmcloud_api_key" {
   type        = string
   description = "The api key for IBM Cloud access"
 }
@@ -61,4 +61,5 @@ variable "existing_subnet_id" {
   description = "ID of an existing subnet where to add the bastion - can be left empty"
   #default     = ""
 }
+*/
 
